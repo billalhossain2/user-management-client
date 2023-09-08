@@ -4,7 +4,7 @@ import chocolateImg from "../assets/chocolate.jpg";
 import { Link, useNavigate } from "react-router-dom";
 const Home = () => {
     const navigate = useNavigate()
-    const handleNavigation = ()=>navigate("/addChocolate")
+    const handleNavigation = ()=>navigate("/addUser")
   return (
     <div>
       <Header></Header>
@@ -107,7 +107,7 @@ const Home = () => {
                 <td className="px-10 py-5">Australia</td>
                 <td className="px-10 py-5">Premium</td>
                 <td className="px-10 py-5 space-x-5">
-                <Link to="/editChocolate">
+                <Link to="/editUser">
                 <i class="fa-solid fa-pen bg-[#d6cfcf] p-2 rounded-sm text-[#774320] cursor-pointer"></i>
                 </Link>
                 <i class="fa-solid fa-xmark bg-[#d6cfcf] p-2 rounded-sm text-[#774320] cursor-pointer"></i>
@@ -119,7 +119,7 @@ const Home = () => {
                 <td className="px-10 py-5">Australia</td>
                 <td className="px-10 py-5">Premium</td>
                 <td className="px-10 py-5 space-x-5">
-                <Link to="/editChocolate">
+                <Link to="/editUser">
                 <i class="fa-solid fa-pen bg-[#d6cfcf] p-2 rounded-sm text-[#774320] cursor-pointer"></i>
                 </Link>
                 <i class="fa-solid fa-xmark bg-[#d6cfcf] p-2 rounded-sm text-[#774320] cursor-pointer"></i>

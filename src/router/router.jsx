@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import Home from "../pages/Home";
-import AddChocolate from "../pages/AddChocolate";
-import EditChocolate from "../pages/EditChocolate";
+import AddUser from "../pages/AddUser";
+import EditUser from "../pages/EditUser";
 
 const router = createBrowserRouter([
   {
@@ -10,12 +10,12 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: "/addChocolate",
-    element: <AddChocolate></AddChocolate>,
+    path: "/addUser",
+    element: <AddUser></AddUser>,
   },
   {
-    path: "/editChocolate",
-    element: <EditChocolate></EditChocolate>,
+    path: "/editUser",
+    element: <EditUser></EditUser>,
   },
 ]);
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import { Link } from 'react-router-dom'
 
-const AddChocolate = () => {
+const AddUser = () => {
   return (
     <div>
         <Header></Header>
@@ -43,4 +43,4 @@ const AddChocolate = () => {
   )
 }
 
-export default AddChocolate
+export default AddUser
