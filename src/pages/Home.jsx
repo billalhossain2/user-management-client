@@ -11,7 +11,7 @@ const Home = () => {
       <div className="mb-8">
         <button onClick={handleNavigation} className="border-solid border-[1px] border-gray-400 p-2 rounded-lg">
           <i class="fa-solid fa-plus"></i>
-          <span>New Chocolate</span>
+          <span>New User</span>
           <svg className="inline"
             xmlns="http://www.w3.org/2000/svg"
             width="20"
